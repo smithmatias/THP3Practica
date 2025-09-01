@@ -14,8 +14,8 @@ class _HomeScreenState extends State<HomeScreen> {
 
   // Array hardcodeado de usuarios
   final List<Map<String, String>> _users = [
-    {'user': 'user1', 'pass': '123'},
-    {'user': 'user2', 'pass': '456'},
+    {'user': 'dyasmond', 'pass': 'servanis'},
+    {'user': 'shumai', 'pass': 'kieran'},
   ];
 
   void _login() {

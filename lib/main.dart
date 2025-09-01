@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_practica_thp3/pokemon_lista.dart';
 import 'package:go_router/go_router.dart';
 
 import 'home.dart';
-import 'bienvenido.dart';
 
 void main() {
   runApp(MyApp());
@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
         path: '/bienvenido/:username',
         builder: (context, state) {
           final username = state.pathParameters['username']!;
-          return BienvenidoScreen(username: username);
+          return PokemonListScreen(username: username);
         },
       ),
     ],
